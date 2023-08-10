@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Just Stream It</title>
+
+    <!---template or main css file---->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-----favi icon or icon show link-->
+    <link rel="icon" type="image/png" href="images/logo-juststreamit.pn`" />
+
+    <!-----nav title icon-->
+    <link rel="icon" type="image/png" href="images/logo-juststreamit.png" />
+  </head>
+  <body>
+    <!---- nav bar start -->
+    <nav class="navbar">
+      <img src="./images/logo-juststreamit.png" alt="" class="brand-logo" />
+      <ul class="nav-links">
+        <li class="nav-items"><a href="#">TV</a></li>
+        <li class="nav-items"><a href="#">Movies</a></li>
+        <li class="nav-items"><a href="#">Sports</a></li>
+        <li class="nav-items"><a href="#">Series</a></li>
+        <li class="nav-items">
+          <a href="#"
+            ><img src="./images/kids.svg" alt="" class="kids-icon"
+          /></a>
+        </li>
+      </ul>
+
+      <div class="right-container">
+        <input type="text" placeholder="search" class="search-box" />
+        <button class="sub-btn">Subcribe</button>
+        <a href="" class="login-link">login</a>
+      </div>
+    </nav>
+    <!---- nav bar end -->
+
+    <!---- carousel section start -->
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="slider">
+                <div class="slider-content">
+                    <h1 class="movie-title"></h1>
+                    <p class="imdb_score"></span></p>
+                    <p class="movie-desc"></p>
+                    <p class="genres"></p>
+                    <p class="writers"></p>
+                    <button class="play-btn">Play</button>
+                    <button class="more-btn">More Info</button>
+                </div>
+                <img src="" alt="">
+          </div>
+      </div>
+    </div>
+    <!---- carousel section end -->
+
+ 
+
+    <!---- card start -->
+    <div>
+      <!---- title part for cards -->
+      <h1 class="title">recommanded for you</h1>
+      <!---- movies cards / shows card start -->
+      <div class="movies-list">
+        <button class="pre-btn"><img src="./images/pre.png" alt="" /></button>
+        <button class="nxt-btn"><img src="./images/nxt.png" alt="" /></button>
+        <div class="card-container recommandations"></div>
+      </div>
+    </div>
+    <br>
+
+    <!---- movies card start -->
+    <div>
+      <!---- title part for cards -->
+      <h1 class="title">Hit Movies</h1>
+      <!---- movies cards / shows card start -->
+      <div class="movies-list">
+        <button class="pre-btn"><img src="./images/pre.png" alt="" /></button>
+        <button class="nxt-btn"><img src="./images/nxt.png" alt="" /></button>
+
+        <div class="card-container movies"></div>
+      </div>
+    </div>
+    <!---- movies card end -->
+
+
+    <!---- Series card start -->
+    <div>
+      <!---- title part for cards -->
+      <h1 class="title">Series</h1>
+      <!---- movies cards / shows card start -->
+      <div class="movies-list">
+        <button class="pre-btn"><img src="./images/pre.png" alt="" /></button>
+        <button class="nxt-btn"><img src="./images/nxt.png" alt="" /></button>
+
+        <div class="card-container series">
+
+        </div>
+      </div>
+    </div>
+    <!---- Series card end -->
+
+
+    <!---- Sports card start -->
+        <div>
+          <!---- title part for cards -->
+          <h1 class="title">Drama</h1>
+          <!---- movies cards / shows card start -->
+          <div class="movies-list">
+            <button class="pre-btn"><img src="./images/pre.png" alt="" /></button>
+            <button class="nxt-btn"><img src="./images/nxt.png" alt="" /></button>
+    
+            <div class="card-container sport">
+              
+            </div>
+          </div>
+        </div>
+      <!---- Sport card end -->
+
+
+    <!---- movies cards / shows card start -->
+    <!---- card end -->
+
+    <!---- js file-->
+    <!-- <script src="./js/slider-data.js"></script> -->
+    <!-- <script src="./js/app.js"></script> -->
+    <script src="./js/api.js"></script>
+  </body>
+</html>
