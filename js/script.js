@@ -13,7 +13,6 @@ const fetchMovies = async (lienApi) => {
     await fetch(lienApi)
         .then((res) => res.json())
         .then((data) => (movieData = data.results))
-
 }
 
 
